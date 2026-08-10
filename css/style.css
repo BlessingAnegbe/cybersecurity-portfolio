@@ -22,18 +22,31 @@ body{
    NAVBAR
 =========================== */
 
-.navbar{
+.navbar {
 
-    display:flex;
+    display: flex;
 
-    justify-content:space-between;
+    justify-content: space-between;
 
-    align-items:center;
+    align-items: center;
 
-    padding:20px 8%;
+    padding: 20px 8%;
 
-    background:#111827;
+    background: #111827;
 
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
+}
+body {
+    padding-top: 80px;
 }
 
 .logo{
