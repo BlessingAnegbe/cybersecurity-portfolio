@@ -1097,143 +1097,38 @@ footer hr{
 
 }
 /* ===========================
-   MOBILE
+MOBILE NAVIGATION
 =========================== */
 
-@media (max-width:768px){
+.menu-toggle {
+    display: none;
+}
 
-    .navbar{
+/* Mobile */
 
-        flex-direction:column;
+@media (max-width: 768px) {
 
-        gap:20px;
-
-        padding:20px;
-
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 5%;
     }
 
-    .navbar ul{
-
-        flex-wrap:wrap;
-
-        justify-content:center;
-
-        gap:15px;
-
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 18px;
+        width: 100%;
     }
 
-    .hero{
-
-        padding:60px 20px;
-
+    .nav-links li {
+        list-style: none;
     }
 
-    .hero h1{
-
-        font-size:42px;
-
-    }
-
-    .description{
-
-        font-size:16px;
-
-    }
-
-    .buttons{
-
-        flex-direction:column;
-
-    }
-
-    .photo{
-
-        width:280px;
-
-        height:340px;
-
-    }
-
-    .about{
-
-        padding:80px 20px;
-
-    }
-
-    .about-content h2{
-
-        font-size:35px;
-
-    }
-
-    .about-cards{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .skills{
-
-        padding:80px 20px;
-
-    }
-
-    .skills-container{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .projects-container{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .experience{
-
-        padding:80px 20px;
-
-    }
-
-    .experience-card{
-
-        width:100%;
-
-    }
-
-    .certifications-row{
-
-        flex-direction:column;
-
-        align-items:center;
-
-    }
-
-    .cert-card{
-
-        width:100%;
-
-        max-width:320px;
-
-    }
-
-    .contact-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .location-card{
-
-        grid-column:auto;
-
-    }
-
-    footer{
-
-        padding:60px 20px;
-
+    .nav-links a {
+        font-size: 14px;
+        padding: 5px;
     }
 
 }
