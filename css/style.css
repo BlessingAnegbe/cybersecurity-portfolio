@@ -1373,3 +1373,41 @@ footer hr{
     opacity:1;
     transform:translateY(0);
 }
+/* ===========================
+   MOBILE NAVBAR
+=========================== */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 18px;
+        width: 100%;
+    }
+
+    .nav-links li {
+        list-style: none;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+}
