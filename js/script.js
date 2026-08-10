@@ -17,10 +17,6 @@ if (menuToggle) {
             menuToggle.innerHTML = "☰";
         }
 
-    });
-
-}
-
 
 // ===========================
 // ACTIVE NAVIGATION
